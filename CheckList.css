@@ -1,0 +1,11 @@
+td {
+  text-align: center;
+}
+th {
+  font-size: x-large;
+  vertical-align: middle;
+}
+th.heading {
+  font-size: xx-large;
+  text-align: center;
+}

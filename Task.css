@@ -1,0 +1,12 @@
+div.check {
+  border: 5px solid black;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+div.track {
+  border: 5px solid black;
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+}
