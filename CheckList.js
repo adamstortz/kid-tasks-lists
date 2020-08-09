@@ -7,17 +7,17 @@ export default ({ name, days, sections }) => {
     <tr>
       <th>{name}</th>
       {days.map(day => (
-        <th>{day.name}</th>
+        <th key={`section-day-${day.name}`}>{day.name}</th>
       ))}
     </tr>
   );
   const sectionList = sections.map(({ name, tasks }) => (
-    <Section name={name} days={days} tasks={tasks} />
+    <Section key={`section-${name}`} name={name} days={days} tasks={tasks} />
   ));
   return (
-    <div class="row">
-      <table class="table">
-        <thead class="thead-dark">{headerRow}</thead>
+    <div className="row">
+      <table className="table">
+        <thead className="thead-dark">{headerRow}</thead>
         {sectionList}
       </table>
     </div>

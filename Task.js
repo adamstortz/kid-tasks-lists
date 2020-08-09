@@ -6,7 +6,7 @@ export default ({ name, type, days }) => {
     <tr>
       <th>{name}</th>
       {days.map(day => (
-        <td>
+        <td key={`task-${name}-${day.name}`}>
           <div className={type || "check"} />
         </td>
       ))}

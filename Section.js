@@ -6,9 +6,9 @@ export default ({ name, days, tasks }) => {
   const header = (
     <thead className="thead-light">
       <tr>
-        <th class="heading">{name}</th>
+        <th className="heading">{name}</th>
         {days.map(day => (
-          <th />
+          <th key={`day-${day.name}`} />
         ))}
       </tr>
     </thead>
@@ -16,7 +16,7 @@ export default ({ name, days, tasks }) => {
   const taskList = (
     <tbody>
       {tasks.map(({ name, type }) => (
-        <Task name={name} type={type} days={days} />
+        <Task key={`task-${name}`} name={name} type={type} days={days} />
       ))}
     </tbody>
   );
