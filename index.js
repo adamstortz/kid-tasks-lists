@@ -42,8 +42,11 @@ let App = props => {
         { name: "IEW"}
         { name: "LTW"}
         { name: "Typing"}
-        { name: ""}
-        { name: "food", type: "track" }
+        { name: "Read To Mom"}
+        { name: "Mom Read To You"}
+        { name: "Typing"}
+        { name: "Logic"}
+        { name: "Screen Time", type: "track" }
       ] 
     }
   ];
