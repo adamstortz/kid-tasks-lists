@@ -11,41 +11,43 @@ let App = props => {
     { 
       name: "Chores", 
       tasks: [
-        { name: "Pickup Room" }
-        { name: "Shower" }
-        { name: "Get Dressed" }
-        { name: "Brush Hair" }
-        { name: "Brush Teeth" }
-        { name: "Take Vitamins" }
-        { name: "Chores" }
+        { name: "Pickup Room" },
+        { name: "Shower" },
+        { name: "Get Dressed" },
+        { name: "Brush Hair" },
+        { name: "Brush Teeth" },
+        { name: "Take Vitamins" },
+        { name: "Chores" },
         { name: "Mop" }      
       ] 
     },
     { 
       name: "Dog", 
       tasks: [
-        { name: "Feed" }
-        { name: "Walk" }       
-        { name: "Train (10 min)" }                            
+        { name: "Feed" },
+        { name: "Walk" } ,      
+        { name: "Train (10 min)" }    
+      ]
+    },{                        
       name: "School", 
       tasks: [
         { name: "Handwriting" },
-        { name: "Duolingo"}
-        { name: "Maps"}
-        { name: "Piano"}
-        { name: "Latin"}
-        { name: "Rod & Staff"}
-        { name: "Math"}
-        { name: "History"}
-        { name: "Science"}
-        { name: "Spelling"}
-        { name: "IEW"}
-        { name: "LTW"}
-        { name: "Typing"}
-        { name: "Read To Mom"}
-        { name: "Mom Read To You"}
-        { name: "Typing"}
-        { name: "Logic"}
+        { name: "Duolingo"},
+        { name: "Maps"},
+        { name: "Piano"},
+        { name: "Latin"},
+        { name: "Rod & Staff"},
+        { name: "Math"},
+        { name: "History"},
+        { name: "Science"},
+        { name: "Spelling"},
+        { name: "IEW"},
+        { name: "LTW"},
+        { name: "Typing"},
+        { name: "Read To Mom"},
+        { name: "Mom Read To You"},
+        { name: "Typing"},
+        { name: "Logic"},
         { name: "Screen Time", type: "track" }
       ] 
     }
