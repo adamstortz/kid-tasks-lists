@@ -5,7 +5,7 @@ import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 let App = props => {
-  const kids = ["Hannah", "Maya"];
+  const kids = ["Hannah", "Maya" ,"Kayla"];
   const days = [{ name: "Sunday" }, { name: "Monday", isSchoolDay: false }];
   const sections = [
     { 
@@ -35,7 +35,7 @@ let App = props => {
         { name: "Duolingo"},
         { name: "Maps"},
         { name: "Piano"},
-        { name: "Latin"},
+        { name: "Latin C"},
         { name: "Rod & Staff"},
         { name: "Math"},
         { name: "History"},
