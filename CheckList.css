@@ -3,9 +3,13 @@ td {
 }
 th {
   font-size: x-large;
-  vertical-align: middle;
 }
+
 th.heading {
   font-size: xx-large;
   text-align: center;
+}
+
+table {
+  page-break-after: always;
 }

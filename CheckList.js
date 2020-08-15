@@ -7,7 +7,9 @@ export default ({ name, days, sections }) => {
     <tr>
       <th>{name}</th>
       {days.map(day => (
-        <th key={`section-day-${day.name}`}>{day.name}</th>
+        <th className="day" key={`section-day-${day.name}`}>
+          {day.name}
+        </th>
       ))}
     </tr>
   );
@@ -15,11 +17,9 @@ export default ({ name, days, sections }) => {
     <Section key={`section-${name}`} name={name} days={days} tasks={tasks} />
   ));
   return (
-    <div className="row">
-      <table className="table">
-        <thead className="thead-dark">{headerRow}</thead>
-        {sectionList}
-      </table>
-    </div>
+    <table className="table table-sm">
+      <thead className="thead-dark">{headerRow}</thead>
+      {sectionList}
+    </table>
   );
 };

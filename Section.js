@@ -15,8 +15,8 @@ export default ({ name, days, tasks }) => {
   );
   const taskList = (
     <tbody>
-      {tasks.map(({ name, type }) => (
-        <Task key={`task-${name}`} name={name} type={type} days={days} />
+      {tasks.map(({ name, type, tasks }) => (
+        <Task key={`task-${name}`} name={name} type={type} tasks={tasks} days={days} />
       ))}
     </tbody>
   );
