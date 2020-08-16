@@ -17,7 +17,7 @@ export default ({ name, type, days, tasks }) => {
     );
   return (
     <tr>
-      <th className="padding-0">{name}</th>
+      <th className="padding-0 task-name">{name}</th>
       {days.map(day => (
         <td className="padding-0" key={`task-${name}-${day.name}`}>{taskDetail}</td>
       ))}

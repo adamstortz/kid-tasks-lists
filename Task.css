@@ -26,3 +26,9 @@ span.task-detail{
   padding-left: 0;
   padding-right: 0;
 }
+
+th.task-name {
+  white-space: nowrap;
+  padding-bottom: 4.8px;
+  vertical-align: middle;
+}
