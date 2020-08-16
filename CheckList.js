@@ -17,7 +17,7 @@ export default ({ name, days, sections }) => {
     <Section key={`section-${name}`} name={name} days={days} tasks={tasks} />
   ));
   return (
-    <table className="table table-sm">
+    <table className="table table-sm table-striped">
       <thead className="thead-dark">{headerRow}</thead>
       {sectionList}
     </table>

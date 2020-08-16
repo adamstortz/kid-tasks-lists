@@ -15,3 +15,14 @@ span.task-detail{
   font-size: xx-large;
   padding-left: 10px;
 }
+
+.padding-0 {
+    padding-right:0;
+    padding-left:0;
+}
+
+.list-group-item  {
+  background-color: inherit;
+  padding-left: 0;
+  padding-right: 0;
+}

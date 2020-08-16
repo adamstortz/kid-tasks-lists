@@ -155,7 +155,7 @@ let App = props => {
     { name: "Sunday", isSchoolDay: false }, 
     { name: "Monday" },
     { name: "Tuesday" },
-    { name: "Wedday" },
+    { name: "Wednesday" },
     { name: "Thursday" },
     { name: "Friday" },
     { name: "Saturday", isSchoolDay: false }, 
