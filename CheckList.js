@@ -13,8 +13,8 @@ export default ({ name, days, sections }) => {
       ))}
     </tr>
   );
-  const sectionList = sections.map(({ name, tasks }) => (
-    <Section key={`section-${name}`} name={name} days={days} tasks={tasks} />
+  const sectionList = sections.map(({ name: sectionName, tasks }) => (
+    <Section key={`section-${sectionName}`} name={sectionName} days={days} tasks={tasks}  kid={name}/>
   ));
   return (
     <table className="table table-sm table-striped">

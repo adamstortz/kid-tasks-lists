@@ -2,7 +2,7 @@ import React from "react";
 import "./Section.css";
 import Task from "./Task";
 
-export default ({ name, days, tasks }) => {
+export default ({ name, days, tasks, kid }) => {
   const header = (
     <thead className="thead-light">
       <tr>
@@ -15,8 +15,8 @@ export default ({ name, days, tasks }) => {
   );
   const taskList = (
     <tbody>
-      {tasks.map(({ name, type, tasks }) => (
-        <Task key={`task-${name}`} name={name} type={type} tasks={tasks} days={days} />
+      {tasks.map(({ name: taskName, type, tasks }) => (
+        <Task key={`${kid}-${name}-${taskName}`} name={taskName} type={type} tasks={tasks} days={days} />
       ))}
     </tbody>
   );
