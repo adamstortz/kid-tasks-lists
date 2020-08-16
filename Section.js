@@ -8,7 +8,7 @@ export default ({ name, days, tasks, kid }) => {
       <tr>
         <th className="heading">{name}</th>
         {days.map(day => (
-          <th key={`day-${day.name}`} />
+          <th key={`${day.name}`} />
         ))}
       </tr>
     </thead>
@@ -16,7 +16,13 @@ export default ({ name, days, tasks, kid }) => {
   const taskList = (
     <tbody>
       {tasks.map(({ name: taskName, type, tasks }) => (
-        <Task key={`${kid}-${name}-${taskName}`} name={taskName} type={type} tasks={tasks} days={days} />
+        <Task
+          key={`${kid}-${name}-${taskName}`}
+          name={taskName}
+          type={type}
+          tasks={tasks}
+          days={days}
+        />
       ))}
     </tbody>
   );
