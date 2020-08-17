@@ -14,7 +14,7 @@ let App = props => {
   const kids = [
     {
       name: "Hannah",
-      sections: [
+      tasks: [
         {
           name: "Chores",
           tasks: [
@@ -35,7 +35,9 @@ let App = props => {
             { name: "Walk" },
             { name: "Train (10 min)" }
           ]
-        },
+        }
+      ],
+      school: [
         {
           name: "School",
           tasks: [
@@ -63,7 +65,7 @@ let App = props => {
     },
     {
       name: "Maya",
-      sections: [
+      tasks: [
         {
           name: "Chores",
           tasks: [
@@ -84,7 +86,9 @@ let App = props => {
             { name: "Walk" },
             { name: "Train (10 min)" }
           ]
-        },
+        }
+      ],
+      school: [
         {
           name: "School",
           tasks: [
@@ -112,7 +116,7 @@ let App = props => {
     },
     {
       name: "Kayla",
-      sections: [
+      tasks: [
         {
           name: "Chores",
           tasks: [
@@ -133,7 +137,9 @@ let App = props => {
             { name: "Walk" },
             { name: "Train (10 min)" }
           ]
-        },
+        }
+      ],
+      school: [
         {
           name: "School",
           tasks: [
@@ -143,15 +149,12 @@ let App = props => {
             { name: "Piano" },
             { name: "Latin C" },
             { name: "Rod & Staff" },
-            {
-              name: "Math",
-              tasks: [
+            { name: "Math",tasks: [
                 <FontAwesomeIcon icon="plus" size="lg" />,
                 <FontAwesomeIcon icon="minus" size="lg" />,
                 <FontAwesomeIcon icon="times" size="lg" />,
                 <FontAwesomeIcon icon="divide" size="lg" />
-              ]
-            },
+              ] },
             { name: "History" },
             { name: "Science" },
             { name: "Spelling" },
@@ -177,13 +180,16 @@ let App = props => {
     { name: "Friday" },
     { name: "Saturday", isSchoolDay: false }
   ];
+  const schoolDays = days.filter(day => day.isSchoolDay != false)
 
   return kids.map(kid => (
     <CheckList
       key={kid.name}
       name={kid.name}
       days={days}
-      sections={kid.sections}
+      schoolDays={schoolDays}
+      tasks={kid.tasks}
+      school={kid.school}
     />
   ));
 };
