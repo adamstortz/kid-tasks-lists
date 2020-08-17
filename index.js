@@ -33,7 +33,8 @@ let App = props => {
           tasks: [
             { name: "Feed" },
             { name: "Walk" },
-            { name: "Train (10 min)" }
+            { name: "Train (10 min)" },
+            { name: "Screen Time", type: "track" }
           ]
         }
       ],
@@ -58,7 +59,6 @@ let App = props => {
             { name: "Mom Read To You" },
             { name: "Typing" },
             { name: "Logic" },
-            { name: "Screen Time", type: "track" }
           ]
         }
       ]
@@ -84,7 +84,8 @@ let App = props => {
           tasks: [
             { name: "Feed" },
             { name: "Walk" },
-            { name: "Train (10 min)" }
+            { name: "Train (10 min)" },
+            { name: "Screen Time", type: "track" }
           ]
         }
       ],
@@ -109,7 +110,6 @@ let App = props => {
             { name: "Mom Read To You" },
             { name: "Typing" },
             { name: "Logic" },
-            { name: "Screen Time", type: "track" }
           ]
         }
       ]
@@ -135,7 +135,8 @@ let App = props => {
           tasks: [
             { name: "Feed" },
             { name: "Walk" },
-            { name: "Train (10 min)" }
+            { name: "Train (10 min)" },
+            { name: "Screen Time", type: "track" }
           ]
         }
       ],
@@ -164,21 +165,20 @@ let App = props => {
             { name: "Read To Mom" },
             { name: "Mom Read To You" },
             { name: "Typing" },
-            { name: "Logic" },
-            { name: "Screen Time", type: "track" }
+            { name: "Logic" }
           ]
         }
       ]
     }
   ];
   const days = [
-    { name: "Sunday", isSchoolDay: false },
-    { name: "Monday" },
-    { name: "Tuesday" },
-    { name: "Wednesday" },
-    { name: "Thursday" },
-    { name: "Friday" },
-    { name: "Saturday", isSchoolDay: false }
+    { name: "Sun", isSchoolDay: false },
+    { name: "Mon" },
+    { name: "Tue" },
+    { name: "Wed" },
+    { name: "Thu" },
+    { name: "Fri", isSchoolDay: false },
+    { name: "Sat", isSchoolDay: false }
   ];
   const schoolDays = days.filter(day => day.isSchoolDay != false)
 
