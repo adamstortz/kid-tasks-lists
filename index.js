@@ -42,23 +42,28 @@ let App = props => {
         {
           name: "School",
           tasks: [
-            { name: "Handwriting" },
             { name: "Duolingo" },
-            { name: "Maps" },
-            { name: "Piano" },
-            { name: "Latin C" },
-            { name: "Rod & Staff" },
-            { name: "Math" },
             { name: "History" },
+            { name: "Latin C" },
+            { name: "Logic" },
+            { name: "LTW" },
+            { name: "Maps" },
+            { name: "Math" },
+            {
+              name: "Flashcards",
+              tasks: [
+                <FontAwesomeIcon icon="plus" />,
+                <FontAwesomeIcon icon="minus" />,
+                <FontAwesomeIcon icon="times" />,
+                <FontAwesomeIcon icon="divide" />
+              ]
+            },
+            { name: "Piano" },
+            { name: "Read Bible" },
+            { name: "Rod & Staff" },
             { name: "Science" },
             { name: "Spelling" },
-            { name: "IEW" },
-            { name: "LTW" },
-            { name: "Typing" },
-            { name: "Read To Mom" },
-            { name: "Mom Read To You" },
-            { name: "Typing" },
-            { name: "Logic" }
+            { name: "Typing" }
           ]
         }
       ]
@@ -94,16 +99,26 @@ let App = props => {
           name: "School",
           tasks: [
             { name: "Duolingo" },
-            { name: "Maps" },
-            { name: "Piano" },
-            { name: "Latin C" },
-            { name: "Rod & Staff" },
-            { name: "Math" },
             { name: "History" },
+            { name: "Latin C" },
+            { name: "IEW" },
+            { name: "Maps" },
+            { name: "Math" },
+            {
+              name: "Flashcards",
+              tasks: [
+                <FontAwesomeIcon icon="plus" />,
+                <FontAwesomeIcon icon="minus" />,
+                <FontAwesomeIcon icon="times" />,
+                <FontAwesomeIcon icon="divide" />
+              ]
+            },
+            { name: "Piano" },
+            { name: "Read Bible" },
+            { name: "Rod & Staff" },
             { name: "Science" },
             { name: "Spelling" },
-            { name: "Typing" },
-            { name: "IEW" }
+            { name: "Typing" }
           ]
         }
       ]
@@ -114,12 +129,12 @@ let App = props => {
         {
           name: "Chores",
           tasks: [
-            { name: " Pickup Room " },
-            { name: " Shower " },
-            { name: " Get Dressed " },
-            { name: " Brush Hair " },
-            { name: " Brush Teeth " },
-            { name: " Take Vitamins " }
+            { name: "Pickup Room" },
+            { name: "Shower" },
+            { name: "Get Dressed" },
+            { name: "Brush Hair" },
+            { name: "Brush Teeth" },
+            { name: "Take Vitamin" }
           ]
         },
         {
@@ -137,17 +152,17 @@ let App = props => {
           name: "School",
           tasks: [
             { name: "Handwriting" },
-            { name: "Typing" },
-            { name: "Maps" },
-            { name: "Piano" },
-            { name: "Latin" },
-            { name: "Rod & Staff" },
-            { name: "Flashcards" },
-            { name: "Science" },
             { name: "History" },
+            { name: "Latin" },
+            { name: "Maps" },
+            { name: "Math" },
+            { name: "Flashcards" },
+            { name: "Piano" },
             { name: "Read to Mom" },
+            { name: "Rod & Staff" },
+            { name: "Science" },
             { name: "Spelling" },
-            { name: " Math " }
+            { name: "Typing" }
           ]
         }
       ]
