@@ -58,7 +58,7 @@ let App = props => {
             { name: "Read To Mom" },
             { name: "Mom Read To You" },
             { name: "Typing" },
-            { name: "Logic" },
+            { name: "Logic" }
           ]
         }
       ]
@@ -93,7 +93,6 @@ let App = props => {
         {
           name: "School",
           tasks: [
-            { name: "Handwriting" },
             { name: "Duolingo" },
             { name: "Maps" },
             { name: "Piano" },
@@ -103,13 +102,8 @@ let App = props => {
             { name: "History" },
             { name: "Science" },
             { name: "Spelling" },
-            { name: "IEW" },
-            { name: "LTW" },
             { name: "Typing" },
-            { name: "Read To Mom" },
-            { name: "Mom Read To You" },
-            { name: "Typing" },
-            { name: "Logic" },
+            { name: "IEW" }
           ]
         }
       ]
@@ -120,14 +114,12 @@ let App = props => {
         {
           name: "Chores",
           tasks: [
-            { name: "Pickup Room" },
-            { name: "Shower" },
-            { name: "Get Dressed" },
-            { name: "Brush Hair" },
-            { name: "Brush Teeth" },
-            { name: "Take Vitamins" },
-            { name: "Chores" },
-            { name: "Mop" }
+            { name: " Pickup Room " },
+            { name: " Shower " },
+            { name: " Get Dressed " },
+            { name: " Brush Hair " },
+            { name: " Brush Teeth " },
+            { name: " Take Vitamins " }
           ]
         },
         {
@@ -145,27 +137,17 @@ let App = props => {
           name: "School",
           tasks: [
             { name: "Handwriting" },
-            { name: "Duolingo" },
+            { name: "Typing" },
             { name: "Maps" },
             { name: "Piano" },
-            { name: "Latin C" },
+            { name: "Latin" },
             { name: "Rod & Staff" },
-            { name: "Math",tasks: [
-                <FontAwesomeIcon icon="plus" size="lg" />,
-                <FontAwesomeIcon icon="minus" size="lg" />,
-                <FontAwesomeIcon icon="times" size="lg" />,
-                <FontAwesomeIcon icon="divide" size="lg" />
-              ] },
-            { name: "History" },
+            { name: "Flashcards" },
             { name: "Science" },
+            { name: "History" },
+            { name: "Read to Mom" },
             { name: "Spelling" },
-            { name: "IEW" },
-            { name: "LTW" },
-            { name: "Typing" },
-            { name: "Read To Mom" },
-            { name: "Mom Read To You" },
-            { name: "Typing" },
-            { name: "Logic" }
+            { name: " Math " }
           ]
         }
       ]
@@ -180,7 +162,7 @@ let App = props => {
     { name: "Fri", isSchoolDay: false },
     { name: "Sat", isSchoolDay: false }
   ];
-  const schoolDays = days.filter(day => day.isSchoolDay != false)
+  const schoolDays = days.filter(day => day.isSchoolDay != false);
 
   return kids.map(kid => (
     <CheckList
