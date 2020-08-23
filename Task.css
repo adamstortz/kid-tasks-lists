@@ -22,7 +22,7 @@ span.task-detail{
 }
 
 .list-group-item  {
-  background-color: inherit;
+  background-color: inherit !important;
   padding-left: 0;
   padding-right: 0;
 }
