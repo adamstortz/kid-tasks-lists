@@ -34,8 +34,7 @@ let App = props => {
           tasks: [
             { name: "Feed" },
             { name: "Walk" },
-            { name: "Train (10 min)" },
-            { name: "Screen Time", type: "track" }
+            { name: "Train (10 min)" }
               ]
         },
         {
@@ -44,6 +43,7 @@ let App = props => {
             { name: "Done before lunch" },
             { name: "Recess (30 min)" },
             { name: "Piano" },
+            { name: "Screen Time", type: "track" }
           ]
         }
       ],
@@ -100,7 +100,6 @@ let App = props => {
             { name: "Feed" },
             { name: "Walk" },
             { name: "Train (10 min)" },
-            { name: "Screen Time", type: "track" }
               ]
         },
         {
@@ -109,6 +108,7 @@ let App = props => {
             { name: "Done before lunch" },
             { name: "Recess (30 min)" },
             { name: "Piano" },
+            { name: "Screen Time", type: "track" }
           ]
         }
       ],
@@ -152,7 +152,7 @@ let App = props => {
             { name: "Get Dressed" },
             { name: "Brush Hair" },
             { name: "Brush Teeth" },
-            { name: "Take Vitamin" }
+            { name: "Take Vitamins" }
           ]
         },
         {
@@ -160,8 +160,7 @@ let App = props => {
           tasks: [
             { name: "Feed" },
             { name: "Walk" },
-            { name: "Train (10 min)" },
-            { name: "Screen Time", type: "track" }
+            { name: "Train (10 min)" }
           ]
         },
         {
@@ -170,6 +169,7 @@ let App = props => {
             { name: "Done before lunch" },
             { name: "Recess (30 min)" },
             { name: "Piano" },
+            { name: "Screen Time", type: "track" }
           ]
         }
       ],
