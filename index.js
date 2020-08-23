@@ -36,6 +36,14 @@ let App = props => {
             { name: "Walk" },
             { name: "Train (10 min)" },
             { name: "Screen Time", type: "track" }
+              ]
+        },
+        {
+          name: "School",
+          tasks: [
+            { name: "Done before lunch" },
+            { name: "Recess (30 min)" },
+            { name: "Piano" },
           ]
         }
       ],
@@ -93,6 +101,14 @@ let App = props => {
             { name: "Walk" },
             { name: "Train (10 min)" },
             { name: "Screen Time", type: "track" }
+              ]
+        },
+        {
+          name: "School",
+          tasks: [
+            { name: "Done before lunch" },
+            { name: "Recess (30 min)" },
+            { name: "Piano" },
           ]
         }
       ],
@@ -113,9 +129,9 @@ let App = props => {
                 <FontAwesomeIcon icon="minus" />,
                 <FontAwesomeIcon icon="times" />,
                 <FontAwesomeIcon icon="divide" />
-              ]
+              ],
+              groupType: "spread"
             },
-            { name: "Piano" },
             { name: "Read Bible" },
             { name: "Rod & Staff" },
             { name: "Science" },
@@ -147,6 +163,14 @@ let App = props => {
             { name: "Train (10 min)" },
             { name: "Screen Time", type: "track" }
           ]
+        },
+        {
+          name: "School",
+          tasks: [
+            { name: "Done before lunch" },
+            { name: "Recess (30 min)" },
+            { name: "Piano" },
+          ]
         }
       ],
       school: [
@@ -159,7 +183,6 @@ let App = props => {
             { name: "Maps" },
             { name: "Math" },
             { name: "Flashcards" },
-            { name: "Piano" },
             { name: "Read to Mom" },
             { name: "Rod & Staff" },
             { name: "Science" },
