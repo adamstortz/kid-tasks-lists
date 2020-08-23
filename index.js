@@ -25,7 +25,8 @@ let App = props => {
             { name: "Brush Teeth" },
             { name: "Take Vitamins" },
             { name: "Chores" },
-            { name: "Mop" }
+            { name: "Mop" },
+            { name: "Bring down lauandry"},
           ]
         },
         {
@@ -56,7 +57,8 @@ let App = props => {
                 <FontAwesomeIcon icon="minus" />,
                 <FontAwesomeIcon icon="times" />,
                 <FontAwesomeIcon icon="divide" />
-              ]
+              ],
+              groupType: "spread"
             },
             { name: "Piano" },
             { name: "Read Bible" },

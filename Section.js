@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section.css";
-import Task from "./Task";
+import TaskRow from "./TaskRow";
 
 export default ({ name, days, tasks, kid }) => {
   const header = (
@@ -15,12 +15,13 @@ export default ({ name, days, tasks, kid }) => {
   );
   const taskList = (
     <tbody>
-      {tasks.map(({ name: taskName, type, tasks }) => (
-        <Task
+      {tasks.map(({ name: taskName, type, groupType, tasks }) => (
+        <TaskRow
           key={`${kid}-${name}-${taskName}`}
           name={taskName}
           type={type}
           tasks={tasks}
+          groupType={groupType}
           days={days}
         />
       ))}
