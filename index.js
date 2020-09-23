@@ -42,6 +42,7 @@ let App = props => {
           tasks: [
             { name: "Recess (30 min)"},
             { name: "Piano"},
+            { name: "Done before three"},
             { name: "Screen Time", type: "track"}
           ]
         }
@@ -105,7 +106,7 @@ let App = props => {
         {
           name: "School",
           tasks: [
-            { name: "Done before lunch" },
+            { name: "Done before two" },
             { name: "Recess (30 min)" },
             { name: "Piano" },
             { name: "Screen Time", type: "track" }
