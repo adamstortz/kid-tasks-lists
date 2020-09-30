@@ -52,8 +52,8 @@ let App = props => {
           name: "School",
           tasks: [
             { name: "Duolingo"},
-            { name: "History"},
-            { name: "Latin C"},
+            { name: "History & Science"},
+            { name: "Latin"},
             { name: "Logic"},
             { name: "LTW"},
             { name: "Maps"},
@@ -71,8 +71,7 @@ let App = props => {
 
             { name: "Read Bible"},
             { name: "Rod & Staff"},
-            { name: "Science"},
-            { name: "Typing"}
+            { name: " Fix It"}
           ]
         }
       ]
@@ -118,8 +117,8 @@ let App = props => {
           name: "School",
           tasks: [
             { name: "Duolingo" },
-            { name: "History" },
-            { name: "Latin C" },
+            { name: "History & Science" },
+            { name: "Latin" },
             { name: "IEW" },
             { name: "Maps" },
             { name: "Math" },
@@ -135,7 +134,6 @@ let App = props => {
             },
             { name: "Read Bible"},
             { name: "Rod & Staff"},
-            { name: "Science"},
             { name: "Spelling"},
             { name: "Typing"}
           ]
@@ -180,13 +178,12 @@ let App = props => {
           name: "School",
           tasks: [
             { name: "Handwriting" },
-            { name: "History" },
+            { name: "History & Science" },
             { name: "Latin" },
             { name: "Maps" },
             { name: "Math" },
             { name: "Read to Mom" },
             { name: "Rod & Staff" },
-            { name: "Science" },
             { name: "Spelling" },
             { name: "Typing" }
           ]
