@@ -116,10 +116,10 @@ let App = props => {
         {
           name: "School",
           tasks: [
-            { name: "Duolingo" },
+            { name: "Fix It" },
             { name: "History & Science" },
             { name: "Latin" },
-            { name: "IEW" },
+            { name: "Spelling" },
             { name: "Maps" },
             { name: "Math" },
             {
@@ -134,7 +134,7 @@ let App = props => {
             },
             { name: "Read Bible"},
             { name: "Rod & Staff"},
-            { name: "Spelling"},
+            { name: "Duolingo"},
             { name: "Typing"}
           ]
         }
