@@ -181,6 +181,7 @@ let App = props => {
             { name: "History & Science" },
             { name: "Latin" },
             { name: "Maps" },
+            { name: " Time Test"},
             { name: "Math" },
             { name: "Read to Mom" },
             { name: "Rod & Staff" },
