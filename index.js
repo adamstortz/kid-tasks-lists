@@ -1,4 +1,4 @@
-fimport React, { useState } from "react";
+import React, { useState } from "react";
 import { render } from "react-dom";
 import CheckList from "./CheckList";
 import "./style.css";
@@ -122,7 +122,7 @@ let App = props => {
             { name: "Spelling" },
             { name: "Maps" },
             { name: "Math" },
-            { name: "IEW"}
+            { name: "IEW"},
             {
               name: "Flashcards",
               tasks: [
